@@ -11,6 +11,8 @@ if __package__ is None and not getattr(sys, 'frozen', False):
     path = os.path.realpath(os.path.abspath(__file__))
     sys.path.insert(0, os.path.dirname(os.path.dirname(path)))
 
+# import sys
+# sys.path.append("../")
 import yt_dlp
 
 if __name__ == '__main__':
